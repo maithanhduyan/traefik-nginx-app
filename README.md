@@ -1,5 +1,7 @@
 # Traefik + NGINX + App
 
+[![Deploy Docs to GitHub Pages](https://github.com/maithanhduyan/traefik-nginx-app/actions/workflows/static-deploy.yml/badge.svg)](https://github.com/maithanhduyan/traefik-nginx-app/actions/workflows/static-deploy.yml)
+
 Hệ thống gateway sử dụng **Traefik** làm reverse proxy/gateway bên ngoài, **NGINX** làm performance layer (cache, buffering), và **Express app** phía sau.
 
 ## Kiến trúc
