@@ -1,0 +1,12 @@
+# ── Dev / Windows ──
+# Tự động load khi chạy: docker compose up
+# Dùng file provider vì Windows không mount được Docker socket
+
+services:
+  traefik:
+    command:
+      - --api.insecure=true
+      - --providers.file.filename=/etc/traefik/dynamic.yml
+      - --entrypoints.web.address=:80
+    volumes:
+      - ./traefik-dynamic.yml:/etc/traefik/dynamic.yml:ro

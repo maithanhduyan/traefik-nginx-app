@@ -1,0 +1,38 @@
+# Playwright MCP
+.playwright-mcp/
+.profile/
+
+# Hotplate
+.hotplate/
+
+nginx_cache/
+nginx/ssl/
+
+# PostgreSQL data
+db/data/
+postgres/data/
+
+
+# Odoo logs
+odoo/log/
+log/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

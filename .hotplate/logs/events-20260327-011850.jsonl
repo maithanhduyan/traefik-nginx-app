@@ -1,0 +1,16 @@
+{"ts":"2026-03-27T01:18:50.359Z","session":"20260327-011850","kind":"server_start","data":{"port":5500,"host":"0.0.0.0","root":"e:\\Project\\traefik-nginx-app\\docs\\.vitepress\\dist","https":false,"live_reload":true}}
+{"ts":"2026-03-27T01:18:50.956Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":74}}
+{"ts":"2026-03-27T01:18:50.976Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/style.CwNnKCVM.css","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.978Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/vp-icons.css","status":200,"duration_ms":1}}
+{"ts":"2026-03-27T01:18:50.982Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/app.BTlEcOOn.js","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.983Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/inter-roman-latin.Di8DUHzh.woff2","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.985Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/chunks/theme.e_pJPnbf.js","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.985Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/chunks/framework.B6gjLfeO.js","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.988Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/index.md.rmxVTgKl.lean.js","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:50.990Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/logo.svg","status":200,"duration_ms":1}}
+{"ts":"2026-03-27T01:18:51.311Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/inter-roman-latin-ext.4ZJIpNVo.woff2","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:51.311Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/inter-roman-vietnamese.BjW4sHH5.woff2","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:51.536Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/favicon.ico","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:51.537Z","session":"20260327-011850","kind":"ws_connect","data":{"client_id":"c0","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1536,730]}}
+{"ts":"2026-03-27T01:18:51.544Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/architecture.md.CthYzLPO.js","status":200,"duration_ms":0}}
+{"ts":"2026-03-27T01:18:51.544Z","session":"20260327-011850","kind":"http_request","data":{"method":"GET","path":"/assets/guide_setup.md.B4JRZxTP.js","status":200,"duration_ms":0}}

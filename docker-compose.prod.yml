@@ -1,0 +1,18 @@
+# ── Production / Linux ──
+# Chạy: docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+# Dùng Docker provider + labels, mount Docker socket trực tiếp
+
+services:
+  traefik:
+    command:
+      - --api.insecure=true
+      - --providers.docker=true
+      - --entrypoints.web.address=:80
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+  nginx:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nginx.rule=Host(`example.local`)"
+      - "traefik.http.services.nginx.loadbalancer.server.port=80"
